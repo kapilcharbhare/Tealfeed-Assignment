@@ -1,0 +1,30 @@
+/* src/CodeEditor.css */
+.code-editor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .code-input {
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: #282c34;
+    color: #ffffff;
+    caret-color: #ffffff;
+  }
+  
+  pre {
+    flex: 1;
+    overflow: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: #282c34;
+    color: #ffffff;
+  }
+  
